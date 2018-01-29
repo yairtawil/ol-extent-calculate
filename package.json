@@ -1,0 +1,20 @@
+{
+  "name": "ol-extent-calculate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "openlayers": "^4.6.4"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

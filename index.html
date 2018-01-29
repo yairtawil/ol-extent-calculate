@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./node_modules/openlayers/dist/ol-debug.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="map1">
+        <h1>EPSG:4326</h1>
+        <h2>map1</h2>
+        <button id="calc1">Calculate map1 extent</button>
+        <button id="fit1">fit map1 extent</button>
+        <div id="map1"></div>
+    </div>
+    <div class="map2">
+        <h1>EPSG:3857</h1>
+        <h2>map2</h2>
+        <button id="calc2">Calculate map2 extent</button>
+        <button id="fit2">fit map2 extent</button>
+
+        <div id="map2"></div>
+    </div>
+    <script src="./node_modules/openlayers/dist/ol-debug.js"></script>
+    <script src="./node_modules/@turf/turf/turf.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
