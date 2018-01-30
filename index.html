@@ -3,27 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="./dist/main.bundle.js"></script>
     <link rel="stylesheet" type="text/css" href="https://openlayers.org/en/latest/css/ol.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <div class="map1">
-        <h1>EPSG:4326</h1>
-        <h2>map1</h2>
-        <button id="calc1">Calculate map1 extent</button>
-        <button id="fit1">fit map1 extent</button>
-        <div id="map1"></div>
-    </div>
-    <div class="map2">
-        <h1>EPSG:3857</h1>
-        <h2>map2</h2>
-        <button id="calc2">Calculate map2 extent</button>
-        <button id="fit2">fit map2 extent</button>
 
-        <div id="map2"></div>
-    </div>
-    <script src="https://openlayers.org/en/latest/build/ol.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
-    <script src="index.js"></script>
+    <ol-rotate-extent></ol-rotate-extent>
+
 </body>
 </html>

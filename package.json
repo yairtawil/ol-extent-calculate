@@ -4,15 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server .",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "@types/ol": "^4.6.1",
+    "ol": "^4.6.4"
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "@types/geojson": "^7946.0.0",
+    "http-server": "^0.11.1",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
